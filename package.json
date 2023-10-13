@@ -1,10 +1,15 @@
 {
-    "scripts": {
-        "dev": "npx shopify theme dev",
-        "pull": "npx shopify theme pull",
-        "push": "npx shopify theme push"
-    },
-    "dependencies": {
-        "shopify": "^0.1.0"
-    }
+  "scripts": {
+    "dev": "npx shopify theme dev --store my-ruby-club-test.myshopify.com",
+    "pull": "npx shopify theme pull",
+    "push": "npx shopify theme push",
+    "prettier": "npx prettier --write ."
+  },
+  "dependencies": {
+    "shopify": "^0.1.0"
+  },
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.3.2",
+    "prettier": "^3.0.3"
+  }
 }
