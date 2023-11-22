@@ -1,0 +1,19 @@
+<div name="variant-selector" class="variant-selector">
+  <h3>SELECT A SIZE</h3>
+  <div class="variant-options">
+    {%- for option in product.options_with_values -%}
+      {%- if option.name == 'Size' %}
+        {%- for value in option.values -%}
+          <span
+            id="NEWFORYOU-1"
+            value="{{ value }}"
+            class="variant-item"
+            onclick="test(this);"
+          >
+            {{ value | slice: 3, 5 }}
+          </span>
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
