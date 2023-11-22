@@ -1,0 +1,152 @@
+img {
+  opacity: 0 !important;
+}
+
+.pf-option-swatches input + label > span {
+  display: inline-block;
+  border-radius: 60px;
+}
+
+.banner-carousel {
+  display: flex;
+  width: calc(100% + 100vw);
+  /* Extend the width for a smooth reset effect */
+  animation: carousel 20s linear infinite;
+  /* Adjust the time as needed */
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-200vw);
+    /* Slide the wrapper to the left by 100vw */
+  }
+}
+
+.banner-carousel2 {
+  /* Extend the width for a smooth reset effect */
+  animation: carousel 20s linear infinite;
+  /* Adjust the time as needed */
+}
+
+.quick-add-mega-menu:hover .variant-selector {
+  display: flex;
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-200vw);
+    /* Slide the wrapper to the left by 100vw */
+  }
+}
+
+.bQJPaj .nav-style-1,
+.bleKxK .nav-style-1,
+.dGWMGk .nav-style-1 {
+  border-radius: 50%;
+  background: #ffffff !important;
+}
+
+.bQJPaj .nav-style-1:before,
+.bleKxK .nav-style-1:before,
+.dGWMGk .nav-style-1:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 19px;
+  background-color: #2a2a2a;
+}
+
+.bQJPaj .nav-style-1:after,
+.bleKxK .nav-style-1:after,
+.dGWMGk .nav-style-1:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 14px;
+  background-color: #2a2a2a;
+}
+
+.selectasize div {
+  flex-flow: wrap;
+  align-items: center;
+  place-content: center;
+  display: flex !important;
+  flex-direction: row;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #fff;
+  color: #000;
+  width: 26px;
+  height: 26px;
+  margin: 5px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.selectasize div.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.hziKSB[style*="--o-lg"] .pf-th .pf-option-swatches:not(:last-child) {
+  display: none;
+  margin-bottom: var(--o-lg);
+}
+
+.buttonhover {
+  transition-duration: 1s;
+}
+
+.variant-selector {
+  display: none;
+  padding: 15px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.variant-selector > h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.variant-options {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.variant-item {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.variant-item:hover {
+  background-color: black;
+  color: white;
+}
